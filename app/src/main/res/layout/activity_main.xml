@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/verde"
+        android:layout_width="189dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="103dp"
+        android:backgroundTint="#56EF04"
+        android:text="@string/verde"
+        app:layout_constraintBottom_toTopOf="@+id/amarillo"
+        app:layout_constraintEnd_toStartOf="@+id/rojo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rojo"
+        android:layout_width="189dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#FF0000"
+        android:text="@string/rojo"
+        app:layout_constraintBottom_toTopOf="@+id/azul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/verde"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/azul"
+        android:layout_width="189dp"
+        android:layout_height="148dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="332dp"
+        android:backgroundTint="#00A6FF"
+        android:text="@string/azul"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/amarillo"
+        app:layout_constraintTop_toBottomOf="@+id/rojo" />
+
+    <Button
+        android:id="@+id/amarillo"
+        android:layout_width="189dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="332dp"
+        android:backgroundTint="#FFF200"
+        android:text="@string/amarillo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/azul"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verde" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
