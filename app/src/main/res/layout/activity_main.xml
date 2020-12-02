@@ -12,7 +12,7 @@
         android:layout_height="148dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="103dp"
-        android:backgroundTint="#56EF04"
+        android:background="@drawable/btnverdepuls"
         android:text="@string/verde"
         app:layout_constraintBottom_toTopOf="@+id/amarillo"
         app:layout_constraintEnd_toStartOf="@+id/rojo"
@@ -25,7 +25,7 @@
         android:layout_height="148dp"
         android:layout_marginTop="103dp"
         android:layout_marginEnd="16dp"
-        android:backgroundTint="#FF0000"
+        android:background="@drawable/btnrojopuls"
         android:text="@string/rojo"
         app:layout_constraintBottom_toTopOf="@+id/azul"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +38,7 @@
         android:layout_height="148dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="332dp"
-        android:backgroundTint="#00A6FF"
+        android:background="@drawable/btnazulpuls"
         android:text="@string/azul"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,11 +51,25 @@
         android:layout_height="148dp"
         android:layout_marginStart="17dp"
         android:layout_marginBottom="332dp"
-        android:backgroundTint="#FFF200"
+        android:background="@drawable/btnamarillopuls"
         android:text="@string/amarillo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/azul"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/verde" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="141dp"
+        android:text="@string/start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/azul" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,4 +4,6 @@
     <string name="rojo">Rojo</string>
     <string name="amarillo">Amarillo</string>
     <string name="azul">Azul</string>
+    <string name="ronda">Ronda</string>
+    <string name="start">Start</string>
 </resources>
